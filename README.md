@@ -14,7 +14,7 @@
 
 - make sure you can also handle multiple delimiters with length longer than one char.
 
-Has six unique words.
+
 
 ## - Exercise 2: 
 
