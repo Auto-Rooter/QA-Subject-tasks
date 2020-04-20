@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24e01d17-8d2c-4791-933d-707394a7194a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise1/calculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise1/calculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="JUnit.calculatorTest">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.exercise1.main" />
       <module name="QA_tasks" />
@@ -61,6 +62,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="calculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.exercise1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.exercise1" />
+      <option name="MAIN_CLASS_NAME" value="main.java.exercise1.calculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -76,22 +92,6 @@
       <option name="PACKAGE_NAME" value="main.java.exercise1" />
       <option name="MAIN_CLASS_NAME" value="main.java.exercise1.calculatorTest" />
       <option name="METHOD_NAME" value="numbersSeparatedByNewLines" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="calculatorTest.stringUpToTwoNumsSeparatedByCommas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA_tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.exercise1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="main.java.exercise1" />
-      <option name="MAIN_CLASS_NAME" value="main.java.exercise1.calculatorTest" />
-      <option name="METHOD_NAME" value="stringUpToTwoNumsSeparatedByCommas" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.calculatorTest" />
         <item itemvalue="Application.main" />
         <item itemvalue="JUnit.calculatorTest.numbersSeparatedByNewLines" />
         <item itemvalue="JUnit.calculatorTest.stringWithUnknownAmountOfNumber" />
         <item itemvalue="JUnit.calculatorTest.stringWithOneNum" />
-        <item itemvalue="JUnit.calculatorTest.stringUpToTwoNumsSeparatedByCommas" />
       </list>
     </recent_temporary>
   </component>
@@ -161,22 +161,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="440" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1587250043221" />
-    <state width="819" height="344" key="GridCell.Tab.0.bottom" timestamp="1587389627858">
+    <state width="1237" height="344" key="GridCell.Tab.0.bottom" timestamp="1587390678818">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="819" height="344" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587389627858" />
-    <state width="819" height="344" key="GridCell.Tab.0.center" timestamp="1587389627858">
+    <state width="1237" height="344" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587390678818" />
+    <state width="1237" height="344" key="GridCell.Tab.0.center" timestamp="1587390678817">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="819" height="344" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587389627858" />
-    <state width="819" height="344" key="GridCell.Tab.0.left" timestamp="1587389627858">
+    <state width="1237" height="344" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587390678817" />
+    <state width="1237" height="344" key="GridCell.Tab.0.left" timestamp="1587390678817">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="819" height="344" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587389627858" />
-    <state width="819" height="344" key="GridCell.Tab.0.right" timestamp="1587389627858">
+    <state width="1237" height="344" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587390678817" />
+    <state width="1237" height="344" key="GridCell.Tab.0.right" timestamp="1587390678818">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="819" height="344" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587389627858" />
+    <state width="1237" height="344" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587390678818" />
     <state x="583" y="235" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587260533846">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

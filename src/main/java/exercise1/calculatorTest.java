@@ -39,7 +39,7 @@ public class calculatorTest {
     }
 
     @Test
-    public void numbersSeparatedByDelimiters(){
+    public void stringContainsNegativeNumsThrowErrors(){
         IllegalArgumentException thrown = assertThrows(
                 IllegalArgumentException.class,
                 () -> calc.add("//;\n1;-2;4;-5"),
