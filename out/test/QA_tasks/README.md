@@ -17,10 +17,6 @@
 
 
 ## - Exercise 2: 
- - Add Logging Abilities to your new String Calculator (to an ILogger.Write()) interface (you will need a mock).
- - Every time you call Add(), the sum result will be logged to the logger.
- - When calling Add() and the logger throws an exception, the string calculator should notify an IWebservice of some<br>
-  kind that logging has failed with the message from the logger’s exception (you will need a mock and a stub).
 
 ## - Exercise 3: 
 

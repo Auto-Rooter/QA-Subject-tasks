@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24e01d17-8d2c-4791-933d-707394a7194a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/QA_tasks/META-INF/QA_tasks.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise1/CalcLoggingHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise1/Service.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise1/serviceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/META-INF/QA_tasks.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/QA_tasks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/main/java/exercise1/CalcLoggingHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/main/java/exercise1/calculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/main/java/exercise1/calculatorTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/exercise1/CalcLoggingHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QA_tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/QA_tasks.iml" afterDir="false" />
@@ -74,7 +60,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.calculatorTest.logExceptionWithMessage">
+  <component name="RunManager" selected="JUnit.calculatorTest.logSumValue">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.exercise1.main" />
       <module name="QA_tasks" />
@@ -103,22 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="calculatorTest.logExceptionWithMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA_tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.exercise1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="main.java.exercise1" />
-      <option name="MAIN_CLASS_NAME" value="main.java.exercise1.calculatorTest" />
-      <option name="METHOD_NAME" value="logExceptionWithMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="calculatorTest.logSumValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_tasks" />
       <extension name="coverage">
@@ -135,7 +105,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="calculatorTest.logSumWithMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="calculatorTest.mainUsage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_tasks" />
       <extension name="coverage">
         <pattern>
@@ -145,7 +115,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="main.java.exercise1" />
       <option name="MAIN_CLASS_NAME" value="main.java.exercise1.calculatorTest" />
-      <option name="METHOD_NAME" value="logSumWithMessage" />
+      <option name="METHOD_NAME" value="mainUsage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="serviceTest.shouldLogWarningForMismatchingArchiveTypeAndFileExtension" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.exercise1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.exercise1" />
+      <option name="MAIN_CLASS_NAME" value="main.java.exercise1.serviceTest" />
+      <option name="METHOD_NAME" value="shouldLogWarningForMismatchingArchiveTypeAndFileExtension" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.calculatorTest.logExceptionWithMessage" />
-        <item itemvalue="JUnit.calculatorTest" />
-        <item itemvalue="JUnit.calculatorTest.logSumWithMessage" />
-        <item itemvalue="Application.main" />
         <item itemvalue="JUnit.calculatorTest.logSumValue" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="JUnit.calculatorTest" />
+        <item itemvalue="JUnit.serviceTest.shouldLogWarningForMismatchingArchiveTypeAndFileExtension" />
+        <item itemvalue="JUnit.calculatorTest.mainUsage" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +161,7 @@
       <workItem from="1587477242270" duration="714000" />
       <workItem from="1587768194332" duration="11798000" />
       <workItem from="1587986115023" duration="346000" />
-      <workItem from="1588245563231" duration="12570000" />
+      <workItem from="1588245563231" duration="2965000" />
     </task>
     <servers />
   </component>
@@ -208,22 +194,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="741" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588249755953" />
-    <state width="1237" height="175" key="GridCell.Tab.0.bottom" timestamp="1588260037471">
+    <state width="595" height="263" key="GridCell.Tab.0.bottom" timestamp="1588249320236">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588260037471" />
-    <state width="1237" height="175" key="GridCell.Tab.0.center" timestamp="1588260037471">
+    <state width="595" height="263" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588249320236" />
+    <state width="595" height="263" key="GridCell.Tab.0.center" timestamp="1588249320235">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588260037471" />
-    <state width="1237" height="175" key="GridCell.Tab.0.left" timestamp="1588260037471">
+    <state width="595" height="263" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588249320235" />
+    <state width="595" height="263" key="GridCell.Tab.0.left" timestamp="1588249320235">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588260037471" />
-    <state width="1237" height="175" key="GridCell.Tab.0.right" timestamp="1588260037471">
+    <state width="595" height="263" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588249320235" />
+    <state width="595" height="263" key="GridCell.Tab.0.right" timestamp="1588249320235">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588260037471" />
+    <state width="595" height="263" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588249320235" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1588249757760">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -244,9 +230,5 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="91" y="44" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1587986465809" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1588253926293">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1588253926293" />
   </component>
 </project>

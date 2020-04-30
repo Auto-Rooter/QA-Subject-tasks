@@ -2,19 +2,32 @@ package main.java.exercise1;
 
 
 import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class calculator {
 
     private int total = 0;
     private String separators = "[;,\n]";
     private Boolean exceptionFlag = false;
-    private String negativeNumbers = " ";
+    protected String negativeNumbers = " ";
     private String bannedCharacters = "$+*^";
     private String delimiterPart = "";
     private ArrayList<String> multidigitDelimitersList = new ArrayList<>();
     private String multidigitDelimiters = "";
+    private String messageToBeShowed = "";
+    private Logger logger ;
+    private CalcLoggingHandler calcLoggingHandler ;
+
+
+    public calculator(Logger logger, CalcLoggingHandler calcLoggingHandler){
+        this.logger = logger;
+        this.calcLoggingHandler = calcLoggingHandler;
+    }
 
     public void add(String sentence) {
+        Logger.getLogger("main.java").addHandler(calcLoggingHandler);
+
         if(sentence.isEmpty()){
             total = 0;
             return;
@@ -69,13 +82,34 @@ public class calculator {
         }
 
         if(exceptionFlag){
-            throw new IllegalArgumentException("Negatives Not Allowed:"+negativeNumbers);
+            try {
+                throw new IllegalArgumentException("Negatives Not Allowed:" + negativeNumbers);
+            }catch (IllegalArgumentException e){
+                messageToBeShowed = "[!] Negative Numbers Not Allowed Exception: " + negativeNumbers;
+                logger.log(Level.SEVERE, messageToBeShowed);
+            }
         }
     }
+    public CalcLoggingHandler getHandler(){
+        return this.calcLoggingHandler;
+    }
+
+    public Logger getCalcLogger(){
+        return this.logger;
+    }
+
+    public String getLogData(){
+        return this.calcLoggingHandler.getLogCapturedData();
+    }
+
 
     public int getSum(){
+        messageToBeShowed = "[*] SUM RESULT: "+total;
+        logger.info(messageToBeShowed);
         return total;
     }
+
+
 
 }
 
