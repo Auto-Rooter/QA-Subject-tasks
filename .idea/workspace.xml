@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24e01d17-8d2c-4791-933d-707394a7194a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/QA_tasks/META-INF/QA_tasks.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise1/CalcLoggingHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise1/Service.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise1/serviceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/META-INF/QA_tasks.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/QA_tasks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/main/java/exercise1/CalcLoggingHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/main/java/exercise1/calculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/main/java/exercise1/calculatorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercise1/CalcLoggingHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QA_tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/QA_tasks.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise1/calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise1/calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise1/calculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise1/calculatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise1/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise1/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercise1/calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise1/calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/exercise1/calculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise1/calculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercise1/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise1/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +53,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.calculatorTest.logExceptionWithMessage">
+  <component name="RunManager" selected="JUnit.calculatorTest">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.exercise1.main" />
       <module name="QA_tasks" />
@@ -153,8 +132,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.calculatorTest.logExceptionWithMessage" />
         <item itemvalue="JUnit.calculatorTest" />
+        <item itemvalue="JUnit.calculatorTest.logExceptionWithMessage" />
         <item itemvalue="JUnit.calculatorTest.logSumWithMessage" />
         <item itemvalue="Application.main" />
         <item itemvalue="JUnit.calculatorTest.logSumValue" />
@@ -175,7 +154,7 @@
       <workItem from="1587477242270" duration="714000" />
       <workItem from="1587768194332" duration="11798000" />
       <workItem from="1587986115023" duration="346000" />
-      <workItem from="1588245563231" duration="12570000" />
+      <workItem from="1588245563231" duration="12942000" />
     </task>
     <servers />
   </component>
@@ -208,22 +187,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="741" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588249755953" />
-    <state width="1237" height="175" key="GridCell.Tab.0.bottom" timestamp="1588260037471">
+    <state width="1237" height="175" key="GridCell.Tab.0.bottom" timestamp="1588260812246">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588260037471" />
-    <state width="1237" height="175" key="GridCell.Tab.0.center" timestamp="1588260037471">
+    <state width="1237" height="175" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588260812246" />
+    <state width="1237" height="175" key="GridCell.Tab.0.center" timestamp="1588260812246">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588260037471" />
-    <state width="1237" height="175" key="GridCell.Tab.0.left" timestamp="1588260037471">
+    <state width="1237" height="175" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588260812246" />
+    <state width="1237" height="175" key="GridCell.Tab.0.left" timestamp="1588260812246">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588260037471" />
-    <state width="1237" height="175" key="GridCell.Tab.0.right" timestamp="1588260037471">
+    <state width="1237" height="175" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588260812246" />
+    <state width="1237" height="175" key="GridCell.Tab.0.right" timestamp="1588260812246">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588260037471" />
+    <state width="1237" height="175" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588260812246" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1588249757760">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

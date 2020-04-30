@@ -111,26 +111,26 @@ public class calculatorTest {
     public void logSumWithMessage() {
 
         calc.add("//$&&\n1&&5$13");
-        final CalcLoggingHandler clog = calc.getHandler();
+        final CalcLoggingHandler calcLoggingHandler = calc.getHandler();
         final Logger logger = calc.getCalcLogger();
         final String messageToBeChecked = "[*] SUM RESULT: "+calc.getSum();
 
-        Logger.getLogger("main.java").addHandler(clog);
+        Logger.getLogger("main.java").addHandler(calcLoggingHandler);
 
-        assertThat(clog.getLogCapturedData(), equalTo(messageToBeChecked));
+        assertThat(calcLoggingHandler.getLogCapturedData(), equalTo(messageToBeChecked));
 
     }
 
     @Test
     public void logExceptionWithMessage() {
         calc.add("//$&&\n-1&&-5$-13");
-        final CalcLoggingHandler clog = calc.getHandler();
+        final CalcLoggingHandler calcLoggingHandler = calc.getHandler();
         final Logger logger = calc.getCalcLogger();
         final String messageToBeChecked = "[!] Negative Numbers Not Allowed Exception: "+calc.negativeNumbers;
 
-        Logger.getLogger("main.java").addHandler(clog);
+        Logger.getLogger("main.java").addHandler(calcLoggingHandler);
 
-        assertThat(clog.getLogCapturedData(), equalTo(messageToBeChecked));
+        assertThat(calcLoggingHandler.getLogCapturedData(), equalTo(messageToBeChecked));
 
     }
 }
