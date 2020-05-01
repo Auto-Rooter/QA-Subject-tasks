@@ -1,11 +1,13 @@
-package main.java.exercise1;
+package main.java.exercise2;
 
+
+import main.java.exercise1.main;
 
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class calculator {
+public class calculator2 {
 
     private int total = 0;
     private String separators = "[;,\n]";
@@ -15,9 +17,18 @@ public class calculator {
     private String delimiterPart = "";
     private ArrayList<String> multidigitDelimitersList = new ArrayList<>();
     private String multidigitDelimiters = "";
+    private String messageToBeShowed = "";
+    private Logger logger ;
+    private CalcLoggingHandler calcLoggingHandler ;
 
+
+    public calculator2(Logger logger, CalcLoggingHandler calcLoggingHandler){
+        this.logger = logger;
+        this.calcLoggingHandler = calcLoggingHandler;
+    }
 
     public void add(String sentence) {
+        Logger.getLogger("main.java").addHandler(calcLoggingHandler);
 
         if(sentence.isEmpty()){
             total = 0;
@@ -73,12 +84,30 @@ public class calculator {
         }
 
         if(exceptionFlag){
+            try {
                 throw new IllegalArgumentException("Negatives Not Allowed:" + negativeNumbers);
+            }catch (IllegalArgumentException e){
+                messageToBeShowed = "[!] Negative Numbers Not Allowed Exception: " + negativeNumbers;
+                logger.log(Level.SEVERE, messageToBeShowed);
+            }
         }
+    }
+    public CalcLoggingHandler getHandler(){
+        return this.calcLoggingHandler;
+    }
+
+    public Logger getCalcLogger(){
+        return this.logger;
+    }
+
+    public String getLogData(){
+        return this.calcLoggingHandler.getLogCapturedData();
     }
 
 
     public int getSum(){
+        messageToBeShowed = "[*] SUM RESULT: "+total;
+        logger.info(messageToBeShowed);
         return total;
     }
 

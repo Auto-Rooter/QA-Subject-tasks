@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24e01d17-8d2c-4791-933d-707394a7194a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercise2/calculator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercise2/calculator2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercise2/main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise1/CalcLoggingHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise2/CalcLoggingHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise1/calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise1/calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/exercise1/calculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise1/calculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise1/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise1/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +40,13 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/hamcrest-2.2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/exercise2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -52,69 +59,76 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Abd\eclipse-workspace\QA_tasks\src\main\java\exercise2" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.calculatorTest">
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.exercise1.main" />
+  <component name="RunManager" selected="JUnit.calculator2Test.logExceptionWithMessage">
+    <configuration name="calculator2Test.emptyStringHasZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.exercise1.*" />
+          <option name="PATTERN" value="main.java.exercise2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="main.java.exercise2" />
+      <option name="MAIN_CLASS_NAME" value="main.java.exercise2.calculator2Test" />
+      <option name="METHOD_NAME" value="emptyStringHasZero" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="calculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="calculator2Test.logExceptionWithMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.exercise1.*" />
+          <option name="PATTERN" value="main.java.exercise2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="main.java.exercise1" />
-      <option name="MAIN_CLASS_NAME" value="main.java.exercise1.calculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="calculatorTest.logExceptionWithMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA_tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.exercise1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="main.java.exercise1" />
-      <option name="MAIN_CLASS_NAME" value="main.java.exercise1.calculatorTest" />
+      <option name="PACKAGE_NAME" value="main.java.exercise2" />
+      <option name="MAIN_CLASS_NAME" value="main.java.exercise2.calculator2Test" />
       <option name="METHOD_NAME" value="logExceptionWithMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="calculatorTest.logSumValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="calculator2Test.logSumWithMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.exercise1.*" />
+          <option name="PATTERN" value="main.java.exercise2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="main.java.exercise1" />
-      <option name="MAIN_CLASS_NAME" value="main.java.exercise1.calculatorTest" />
-      <option name="METHOD_NAME" value="logSumValue" />
+      <option name="PACKAGE_NAME" value="main.java.exercise2" />
+      <option name="MAIN_CLASS_NAME" value="main.java.exercise2.calculator2Test" />
+      <option name="METHOD_NAME" value="logSumWithMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="calculatorTest.logSumWithMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="calculator2Test.numberBiggerThan1000Ignored" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.exercise2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.exercise2" />
+      <option name="MAIN_CLASS_NAME" value="main.java.exercise2.calculator2Test" />
+      <option name="METHOD_NAME" value="numberBiggerThan1000Ignored" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="calculatorTest.stringContainsNegativeNumsThrowErrors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_tasks" />
       <extension name="coverage">
         <pattern>
@@ -124,7 +138,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="main.java.exercise1" />
       <option name="MAIN_CLASS_NAME" value="main.java.exercise1.calculatorTest" />
-      <option name="METHOD_NAME" value="logSumWithMessage" />
+      <option name="METHOD_NAME" value="stringContainsNegativeNumsThrowErrors" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.calculatorTest" />
-        <item itemvalue="JUnit.calculatorTest.logExceptionWithMessage" />
-        <item itemvalue="JUnit.calculatorTest.logSumWithMessage" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="JUnit.calculatorTest.logSumValue" />
+        <item itemvalue="JUnit.calculator2Test.logExceptionWithMessage" />
+        <item itemvalue="JUnit.calculator2Test.logSumWithMessage" />
+        <item itemvalue="JUnit.calculator2Test.numberBiggerThan1000Ignored" />
+        <item itemvalue="JUnit.calculator2Test.emptyStringHasZero" />
+        <item itemvalue="JUnit.calculatorTest.stringContainsNegativeNumsThrowErrors" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +168,8 @@
       <workItem from="1587477242270" duration="714000" />
       <workItem from="1587768194332" duration="11798000" />
       <workItem from="1587986115023" duration="346000" />
-      <workItem from="1588245563231" duration="12942000" />
+      <workItem from="1588245563231" duration="14129000" />
+      <workItem from="1588338797858" duration="614000" />
     </task>
     <servers />
   </component>
@@ -183,34 +198,42 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1588248125730" />
+    <state x="226" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588339368458">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="226" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1588339368458" />
+    <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588339031247">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1588339031247" />
     <state x="741" y="97" key="FileChooserDialogImpl" timestamp="1588249755953">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="741" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588249755953" />
-    <state width="1237" height="175" key="GridCell.Tab.0.bottom" timestamp="1588260812246">
+    <state width="1237" height="175" key="GridCell.Tab.0.bottom" timestamp="1588339469768">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588260812246" />
-    <state width="1237" height="175" key="GridCell.Tab.0.center" timestamp="1588260812246">
+    <state width="1237" height="175" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588339469768" />
+    <state width="1237" height="175" key="GridCell.Tab.0.center" timestamp="1588339469767">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588260812246" />
-    <state width="1237" height="175" key="GridCell.Tab.0.left" timestamp="1588260812246">
+    <state width="1237" height="175" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588339469767" />
+    <state width="1237" height="175" key="GridCell.Tab.0.left" timestamp="1588339469767">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588260812246" />
-    <state width="1237" height="175" key="GridCell.Tab.0.right" timestamp="1588260812246">
+    <state width="1237" height="175" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588339469767" />
+    <state width="1237" height="175" key="GridCell.Tab.0.right" timestamp="1588339469767">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588260812246" />
+    <state width="1237" height="175" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588339469767" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1588249757760">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1588249757760" />
-    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1587986179164">
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1588338849032">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587986179164" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1588338849032" />
     <state x="583" y="235" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587260533846">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

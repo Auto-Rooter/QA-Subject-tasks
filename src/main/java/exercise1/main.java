@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class main {
 
     public static void main(String[] args){
-        calculator c = new calculator(Logger.getLogger("main.java"), new CalcLoggingHandler());
+        calculator c = new calculator();
         c.add("//$&&\n1&&5$13");
         System.out.println(c.getSum());
     }
