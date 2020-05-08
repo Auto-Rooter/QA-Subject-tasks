@@ -2,15 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24e01d17-8d2c-4791-933d-707394a7194a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercise3/PassWordMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercise3/PasswordLoggingHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercise3/PasswordVerifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercise3/PasswordVerifierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercise3/PasswordVerifierWithMultithreading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercise3/PasswordVerifierWithMultithreadingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FakePDF.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UsageReport.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/digital_signature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise4/CMSProcessableInputStream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise4/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise4/PdfGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise4/PdfSigner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise4/PdfVerifierTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise4/Signature.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise4/TimeStampManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/FakePDF.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/UsageReport.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/digital_signature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/main/java/exercise4/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/main/java/exercise4/PdfGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/main/java/exercise4/PdfSigner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/main/java/exercise4/PdfVerifierTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/receiver_keystore.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/sender_certificate.cer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/QA_tasks/sender_keystore.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/receiver_keystore.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sender_certificate.cer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sender_keystore.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercise4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercise4/PdfGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercise4/PdfSigner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercise4/PdfVerifierTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA_tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/QA_tasks.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise3/PasswordVerifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise3/PasswordVerifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise3/PasswordVerifierTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QA_tasks/main/java/exercise3/PasswordVerifierTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/QA_tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/QA_tasks/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/QA_tasks/QA_tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/QA_tasks/QA_tasks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/QA_tasks/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/QA_tasks/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/QA_tasks/main/java/exercise3/PassWordMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/QA_tasks/main/java/exercise3/PasswordVerifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/QA_tasks/main/java/exercise3/PasswordVerifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise3/PasswordVerifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise3/PasswordVerifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise3/PasswordVerifierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise3/PasswordVerifierTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +77,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/exercise2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/pdfbox-app-2.0.19.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -64,77 +94,81 @@
       <recent name="C:\Users\Abd\eclipse-workspace\QA_tasks\src\main\java\exercise2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PasswordVerifierTest">
-    <configuration name="PassWordMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.exercise3.PassWordMain" />
+  <component name="RunManager" selected="JUnit.PdfVerifierTest">
+    <configuration name="PdfVerifierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.exercise3.*" />
+          <option name="PATTERN" value="main.java.exercise4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PasswordVerifierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA_tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.exercise3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="main.java.exercise3" />
-      <option name="MAIN_CLASS_NAME" value="main.java.exercise3.PasswordVerifierTest" />
+      <option name="PACKAGE_NAME" value="main.java.exercise4" />
+      <option name="MAIN_CLASS_NAME" value="main.java.exercise4.PdfVerifierTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordVerifierWithMultithreadingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PdfVerifierTest.generatePdfFileWithPdfBoxShouldCreatePdfFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.exercise3.*" />
+          <option name="PATTERN" value="main.java.exercise4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="main.java.exercise3" />
-      <option name="MAIN_CLASS_NAME" value="main.java.exercise3.PasswordVerifierWithMultithreadingTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PasswordVerifierWithMultithreadingTest.lessThan8CharsAndNoLowercaseReturnNeverOkTakeLessThanOneSecond" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA_tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.exercise3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="main.java.exercise3" />
-      <option name="MAIN_CLASS_NAME" value="main.java.exercise3.PasswordVerifierWithMultithreadingTest" />
-      <option name="METHOD_NAME" value="lessThan8CharsAndNoLowercaseReturnNeverOkTakeLessThanOneSecond" />
+      <option name="PACKAGE_NAME" value="main.java.exercise4" />
+      <option name="MAIN_CLASS_NAME" value="main.java.exercise4.PdfVerifierTest" />
+      <option name="METHOD_NAME" value="generatePdfFileWithPdfBoxShouldCreatePdfFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordVerifierWithMultithreadingTest.passwordLessThanEightTakeLessThanOneSecond" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PdfVerifierTest.readingPrivateKeyFromFileShouldReturnAProperKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.exercise3.*" />
+          <option name="PATTERN" value="main.java.exercise4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="main.java.exercise3" />
-      <option name="MAIN_CLASS_NAME" value="main.java.exercise3.PasswordVerifierWithMultithreadingTest" />
-      <option name="METHOD_NAME" value="passwordLessThanEightTakeLessThanOneSecond" />
+      <option name="PACKAGE_NAME" value="main.java.exercise4" />
+      <option name="MAIN_CLASS_NAME" value="main.java.exercise4.PdfVerifierTest" />
+      <option name="METHOD_NAME" value="readingPrivateKeyFromFileShouldReturnAProperKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PdfVerifierTest.signPdfShouldWriteToFileAProperSignature" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.exercise4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.exercise4" />
+      <option name="MAIN_CLASS_NAME" value="main.java.exercise4.PdfVerifierTest" />
+      <option name="METHOD_NAME" value="signPdfShouldWriteToFileAProperSignature" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PdfVerifierTest.verifyPdfShouldReturnTrueIfFileIsValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.exercise4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.exercise4" />
+      <option name="MAIN_CLASS_NAME" value="main.java.exercise4.PdfVerifierTest" />
+      <option name="METHOD_NAME" value="verifyPdfShouldReturnTrueIfFileIsValid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PasswordVerifierTest" />
-        <item itemvalue="JUnit.PasswordVerifierWithMultithreadingTest" />
-        <item itemvalue="Application.PassWordMain" />
-        <item itemvalue="JUnit.PasswordVerifierWithMultithreadingTest.passwordLessThanEightTakeLessThanOneSecond" />
-        <item itemvalue="JUnit.PasswordVerifierWithMultithreadingTest.lessThan8CharsAndNoLowercaseReturnNeverOkTakeLessThanOneSecond" />
+        <item itemvalue="JUnit.PdfVerifierTest" />
+        <item itemvalue="JUnit.PdfVerifierTest.verifyPdfShouldReturnTrueIfFileIsValid" />
+        <item itemvalue="JUnit.PdfVerifierTest.generatePdfFileWithPdfBoxShouldCreatePdfFile" />
+        <item itemvalue="JUnit.PdfVerifierTest.signPdfShouldWriteToFileAProperSignature" />
+        <item itemvalue="JUnit.PdfVerifierTest.readingPrivateKeyFromFileShouldReturnAProperKey" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +201,10 @@
       <workItem from="1588245563231" duration="14129000" />
       <workItem from="1588338797858" duration="1935000" />
       <workItem from="1588524942987" duration="353000" />
-      <workItem from="1588528365079" duration="20213000" />
+      <workItem from="1588528365079" duration="23573000" />
+      <workItem from="1588607588122" duration="7850000" />
+      <workItem from="1588642754727" duration="4926000" />
+      <workItem from="1588855358281" duration="25834000" />
     </task>
     <servers />
   </component>
@@ -192,10 +229,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="440" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1587250043221" />
-    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1588562173815">
+    <state x="636" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1588863297695">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1588562173815" />
+    <state x="636" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1588863297695" />
     <state x="226" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588339368458">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -204,34 +241,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1588339031247" />
-    <state x="741" y="97" key="FileChooserDialogImpl" timestamp="1588249755953">
+    <state x="741" y="97" key="FileChooserDialogImpl" timestamp="1588645827435">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="741" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588249755953" />
-    <state width="1237" height="313" key="GridCell.Tab.0.bottom" timestamp="1588564290162">
+    <state x="741" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588645827435" />
+    <state width="1237" height="173" key="GridCell.Tab.0.bottom" timestamp="1588944280892">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="313" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588564290162" />
-    <state width="1237" height="313" key="GridCell.Tab.0.center" timestamp="1588564290162">
+    <state width="1237" height="173" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588944280892" />
+    <state width="1237" height="173" key="GridCell.Tab.0.center" timestamp="1588944280891">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="313" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588564290162" />
-    <state width="1237" height="313" key="GridCell.Tab.0.left" timestamp="1588564290162">
+    <state width="1237" height="173" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588944280891" />
+    <state width="1237" height="173" key="GridCell.Tab.0.left" timestamp="1588944280891">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="313" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588564290162" />
-    <state width="1237" height="313" key="GridCell.Tab.0.right" timestamp="1588564290162">
+    <state width="1237" height="173" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588944280891" />
+    <state width="1237" height="173" key="GridCell.Tab.0.right" timestamp="1588944280892">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="313" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588564290162" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1588249757760">
+    <state width="1237" height="173" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588944280892" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1588873688731">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1588249757760" />
-    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1588528373320">
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1588873688731" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1588855388691">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1588528373320" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1588855388691" />
     <state x="583" y="235" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587260533846">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

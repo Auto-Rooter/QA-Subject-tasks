@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24e01d17-8d2c-4791-933d-707394a7194a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercise3/PassWordMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercise3/PasswordVerifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercise4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercise4/PdfGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA_tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/QA_tasks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/QA_tasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/QA_tasks/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/QA_tasks/QA_tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/QA_tasks/QA_tasks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/QA_tasks/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/QA_tasks/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise3/PasswordVerifierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise3/PasswordVerifierTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +46,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/exercise2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/pdfbox-app-2.0.19.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -58,7 +63,20 @@
       <recent name="C:\Users\Abd\eclipse-workspace\QA_tasks\src\main\java\exercise2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PassWordMain">
+  <component name="RunManager" selected="JUnit.PasswordVerifierTest.largerThanEightValdiatorShouldReturnTrue">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.exercise4.Main" />
+      <module name="QA_tasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.exercise4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PassWordMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.exercise3.PassWordMain" />
       <module name="QA_tasks" />
@@ -72,65 +90,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="calculator2Test.emptyStringHasZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PdfGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.exercise4.PdfGenerator" />
       <module name="QA_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.exercise2.*" />
+          <option name="PATTERN" value="main.java.exercise4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="main.java.exercise2" />
-      <option name="MAIN_CLASS_NAME" value="main.java.exercise2.calculator2Test" />
-      <option name="METHOD_NAME" value="emptyStringHasZero" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="calculator2Test.logExceptionWithMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PasswordVerifierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.exercise2.*" />
+          <option name="PATTERN" value="main.java.exercise3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="main.java.exercise2" />
-      <option name="MAIN_CLASS_NAME" value="main.java.exercise2.calculator2Test" />
-      <option name="METHOD_NAME" value="logExceptionWithMessage" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="main.java.exercise3" />
+      <option name="MAIN_CLASS_NAME" value="main.java.exercise3.PasswordVerifierTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="calculator2Test.logSumWithMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PasswordVerifierTest.largerThanEightValdiatorShouldReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_tasks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.exercise2.*" />
+          <option name="PATTERN" value="main.java.exercise3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="main.java.exercise2" />
-      <option name="MAIN_CLASS_NAME" value="main.java.exercise2.calculator2Test" />
-      <option name="METHOD_NAME" value="logSumWithMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="calculator2Test.numberBiggerThan1000Ignored" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA_tasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.exercise2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="main.java.exercise2" />
-      <option name="MAIN_CLASS_NAME" value="main.java.exercise2.calculator2Test" />
-      <option name="METHOD_NAME" value="numberBiggerThan1000Ignored" />
+      <option name="PACKAGE_NAME" value="main.java.exercise3" />
+      <option name="MAIN_CLASS_NAME" value="main.java.exercise3.PasswordVerifierTest" />
+      <option name="METHOD_NAME" value="largerThanEightValdiatorShouldReturnTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PasswordVerifierTest.largerThanEightValdiatorShouldReturnTrue" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.PdfGenerator" />
         <item itemvalue="Application.PassWordMain" />
-        <item itemvalue="JUnit.calculator2Test.logExceptionWithMessage" />
-        <item itemvalue="JUnit.calculator2Test.logSumWithMessage" />
-        <item itemvalue="JUnit.calculator2Test.numberBiggerThan1000Ignored" />
-        <item itemvalue="JUnit.calculator2Test.emptyStringHasZero" />
+        <item itemvalue="JUnit.PasswordVerifierTest" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +161,10 @@
       <workItem from="1588245563231" duration="14129000" />
       <workItem from="1588338797858" duration="1935000" />
       <workItem from="1588524942987" duration="353000" />
-      <workItem from="1588528365079" duration="4393000" />
+      <workItem from="1588528365079" duration="23573000" />
+      <workItem from="1588607588122" duration="7850000" />
+      <workItem from="1588642754727" duration="4926000" />
+      <workItem from="1588855358281" duration="1495000" />
     </task>
     <servers />
   </component>
@@ -188,10 +189,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="440" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1587250043221" />
-    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1588248125730">
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1588562173815">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1588248125730" />
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1588562173815" />
     <state x="226" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588339368458">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -200,34 +201,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1588339031247" />
-    <state x="741" y="97" key="FileChooserDialogImpl" timestamp="1588249755953">
+    <state x="741" y="97" key="FileChooserDialogImpl" timestamp="1588645827435">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="741" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588249755953" />
-    <state width="1237" height="175" key="GridCell.Tab.0.bottom" timestamp="1588339469768">
+    <state x="741" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1588645827435" />
+    <state width="1237" height="241" key="GridCell.Tab.0.bottom" timestamp="1588683526429">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588339469768" />
-    <state width="1237" height="175" key="GridCell.Tab.0.center" timestamp="1588339469767">
+    <state width="1237" height="241" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588683526429" />
+    <state width="1237" height="241" key="GridCell.Tab.0.center" timestamp="1588683526414">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588339469767" />
-    <state width="1237" height="175" key="GridCell.Tab.0.left" timestamp="1588339469767">
+    <state width="1237" height="241" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588683526414" />
+    <state width="1237" height="241" key="GridCell.Tab.0.left" timestamp="1588683526364">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588339469767" />
-    <state width="1237" height="175" key="GridCell.Tab.0.right" timestamp="1588339469767">
+    <state width="1237" height="241" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588683526364" />
+    <state width="1237" height="241" key="GridCell.Tab.0.right" timestamp="1588683526414">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588339469767" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1588249757760">
+    <state width="1237" height="241" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588683526414" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1588645853515">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1588249757760" />
-    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1588528373320">
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1588645853515" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1588855388691">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1588528373320" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1588855388691" />
     <state x="583" y="235" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587260533846">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

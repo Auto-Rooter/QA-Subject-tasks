@@ -112,7 +112,7 @@ public class PasswordVerifier {
                  logger.log(Level.SEVERE,"\n"+ exceptionMessage);
              }
 
-             return (numberOfValidCases >= 3 && cases.get("largerThanEightFlag") == true && cases.get("oneLowerLetterFlag") == true) ? "Password is OK" : "Password is never OK";
+             return (numberOfValidCases >= 3 &&  cases.get("oneLowerLetterFlag") == true) ? "Password is OK" : "Password is never OK";
          }
     }
 

@@ -9,6 +9,7 @@ import java.util.logging.Logger;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class PasswordVerifierTest {
     PasswordVerifier passwordVerifier = new PasswordVerifier();
@@ -87,6 +88,29 @@ public class PasswordVerifierTest {
         assertEquals("Password is never OK", passwordVerifier.isPasswordValid());
     }
 
+    @Test
+    public void largerThanEightValdiatorShouldReturnTrue(){
+        assertEquals(true, passwordVerifier.largerThanEightValidator("secretpassword"));
+    }
 
+    @Test
+    public void notNullValidatorShouldReturnTrue(){
+        assertEquals(true, passwordVerifier.notNullValidator("notNullPassword"));
+    }
+
+    @Test
+    public void oneNumberValidatorShouldReturnTrue(){
+        assertEquals(true, passwordVerifier.oneNumberValidator('3'));
+    }
+
+    @Test
+    public void oneUpperLetterValidatorShouldReturnTrue(){
+        assertEquals(true, passwordVerifier.oneUpperLetterValidator('H'));
+    }
+
+    @Test
+    public void oneLowerLetterValidatorShouldReturnTrue(){
+        assertEquals(true, passwordVerifier.oneLowerLetterValidator('h'));
+    }
 
 }
